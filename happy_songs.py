@@ -4,7 +4,6 @@ from dotenv import load_dotenv
 import dbus
 from dbus.mainloop.glib import DBusGMainLoop
 from gi.repository import GLib
-from urllib.request import urlopen
 
 
 load_dotenv()  # take environment variables from .env.
